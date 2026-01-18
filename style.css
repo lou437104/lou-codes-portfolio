@@ -37,20 +37,29 @@ body{
    
 }
 
-.cover{
+/* Adjust z-index for visibility */
+.cover {
     position: absolute;
     width: 50%;
     height: 100%;
     background: var(--cover-color);
     box-shadow: var(--box-shadow);
-border-top-left-radius: .6rem;
-border-bottom-left-radius: .6rem; 
-transform-origin: right;
-}
-.cover.cover-left{
-    z-index: -1;
+    border-top-left-radius: .6rem;
+    border-bottom-left-radius: .6rem; 
+    transform-origin: right;
+    z-index: 1; /* Ensure it doesn't overlap the book content */
 }
 
-.cover.cover-right.turn{
-    transform: rotateY('180deg');
+.cover.cover-left {
+    z-index: 0; /* Keep it behind the book */
+}
+
+.cover.cover-right.turn {
+    transform: rotateY(180deg); /* Remove quotes around 180deg */
+    z-index: 0; /* Ensure it doesn't overlap the book */
+}
+
+.book {
+    position: relative;
+    z-index: 2; /* Ensure the book content is above the covers */
 }
