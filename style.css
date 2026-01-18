@@ -34,7 +34,7 @@ body{
     position: relative;
     width: 66rem;
     height: 45rem;
-    background: red;
+   
 }
 
 .cover{
@@ -45,5 +45,12 @@ body{
     box-shadow: var(--box-shadow);
 border-top-left-radius: .6rem;
 border-bottom-left-radius: .6rem; 
+transform-origin: right;
+}
+.cover.cover-left{
+    z-index: -1;
+}
 
+.cover.cover-right.turn{
+    transform: rotateY('180deg');
 }
