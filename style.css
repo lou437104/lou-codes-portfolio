@@ -71,5 +71,6 @@ transform-origin: right;
     width: 50%;
     height: 100%;
     background-color: var(--pages-color);
-    box-shadow: 0 0 .6rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 .6rem rgba(0, 0, 0, 0.1 );
+    display: flex ;
 }
