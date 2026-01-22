@@ -35,6 +35,7 @@ body{
     position: relative;
     width: 66rem;
     height: 45rem;
+    padding: 2rem; 
    
 }
 
@@ -74,3 +75,4 @@ transform-origin: right;
     box-shadow: 0 0 .6rem rgba(0, 0, 0, 0.1 );
     display: flex ;
 }
+
