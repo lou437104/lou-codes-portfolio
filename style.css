@@ -45,8 +45,9 @@ body{
         box-shadow: var(--box-shadow);
         border-top-left-radius:  .6rem;
         border-bottom-left-radius:  .6rem; 
+        transform-origin: right;
 }
 
 .cover.cover-right.turn{
-    transform: rotateY('angle');
+    transform: rotateY(180deg);
 }
