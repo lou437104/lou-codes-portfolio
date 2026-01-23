@@ -58,14 +58,16 @@ body{
 .profile-page {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center-align the text */
-    position: relative; /* Ensure the image stays positioned correctly */
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Align text to the left */
+    position: absolute; /* Position the container absolutely */
+    top: 1rem; /* Distance from the top of the parent container */
+    left: 1rem; /* Distance from the left of the parent container */
 }
 
 .profile-page img {
-    width: 8rem; /* Set a fixed width for the image */
+    width: 6rem; /* Set a smaller width for the image */
     height: auto; /* Maintain the aspect ratio */
     border-radius: 50%; /* Makes the image circular */
-    margin-bottom: 1rem; /* Add spacing between the image and the text */
+    margin-bottom: 0.5rem; /* Add spacing between the image and the text */
 }
