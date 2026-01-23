@@ -56,9 +56,10 @@ body{
 }
 
 .profile-page img {
-    max-width: 100%; /* Prevents the image from exceeding the container's width */
-    height: auto;    /* Maintains the aspect ratio */
+    width: 8rem; /* Set a fixed width for the image */
+    height: auto; /* Maintain the aspect ratio */
     border-radius: 50%; /* Optional: Makes the image circular */
-    display: block;  /* Ensures proper alignment */
-    margin: 0 auto;  /* Centers the image horizontally */
+    position: absolute; /* Allows positioning in the corner */
+    top: 1rem; /* Adjust the distance from the top */
+    left: 1rem; /* Adjust the distance from the left */
 }
