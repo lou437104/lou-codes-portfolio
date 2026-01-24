@@ -91,3 +91,37 @@ body{
     border: 0.3rem solid var(--main-color); /* Smaller border size */
     margin-bottom: 0.8rem; /* Spacing below the image */
 }
+
+.profile-page h1{
+    font-size: 2.7rem;
+    line-height: 1;
+}
+
+.profile-page h3{
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+.profile-page .social-media{
+    margin: .6rem 0 .8rem;
+}
+
+.profile-page .social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: var(--border);
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: var(--main-color);
+    margin: 0.2rem;
+    transition: .5s;
+}
+
+.profile-page .social-media a:hover{
+    background: var(--main-color);
+    color: var(--white-color);
+}
