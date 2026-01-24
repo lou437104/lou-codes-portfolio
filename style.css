@@ -77,13 +77,17 @@ body{
 }
 
 .profile-page {
-    background: seagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
 .profile-page img {
     max-width: 115px; /* Set the maximum width of the image */
     border-radius: 50%; /* Makes the image circular */
-    border: 0.5rem solid var(--main-color); /* Smaller border size */
+    border: 0.3rem solid var(--main-color); /* Smaller border size */
     margin-bottom: 0.8rem; /* Spacing below the image */
 }
