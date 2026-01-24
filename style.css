@@ -36,10 +36,13 @@ body{
     width: 66rem;
     height: 45rem;
     padding: 2rem;
+    background: red;
 }
 
 .cover{
     position: absolute;
+    top: 0%;
+    left: 0%;
      width: 50%;
         height: 100%;
         background: var(--cover-color);
@@ -75,13 +78,8 @@ body{
 }
 
 .profile-page {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the left */
-    text-align: left; /* Align text to the left */
-    position: absolute; /* Position the container absolutely */
-    top: 1rem; /* Distance from the top of the parent container */
-    left: 1rem; /* Distance from the left of the parent container */
+    background: seagreen;
+
 }
 
 .profile-page img {
