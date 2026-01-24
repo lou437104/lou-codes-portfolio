@@ -82,8 +82,8 @@ body{
 }
 
 .profile-page img {
-    width: 6rem; /* Set a smaller width for the image */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 115px; /* Set the maximum width of the image */
     border-radius: 50%; /* Makes the image circular */
-    margin-bottom: 0.5rem; /* Add spacing between the image and the text */
+    border: 0.5rem solid var(--main-color); /* Smaller border size */
+    margin-bottom: 0.8rem; /* Spacing below the image */
 }
