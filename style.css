@@ -169,6 +169,57 @@ body{
 
 .book-page.page-right{
     position: absolute;
-    right: 0;
-    
+    right: 0;   
+    transform-style: preserve-3d;
+}
+
+.book-page .page-front,
+.book-page .page-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--pages-color);
+    padding: 1.5rem 2rem;
+}
+
+.book-page .page-front{
+    transform: rotateY(0deg) translateZ(1px);
+}
+.book-page .page-back{
+    transform: rotateY(180deg) translateZ(1px);
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.workeduc-box{
+    border-left: var(--border);
+}
+
+.workeduc-box .workeduc-content{
+    position: relative;
+    padding-left: 1.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.workeduc-box .workeduc-content::before{
+    content:'';
+    position: relative;
+    top: 0;
+    left: -0.65rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: var(--main-color);
+    border-radius: 50%; 
+}
+
+.workeduc-content .year{
+    color: var(--main-color) ;
+}
+
+.workeduc-content .year i{
+    margin-right: .4rem;
 }
