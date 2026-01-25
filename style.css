@@ -90,6 +90,7 @@ body{
     border-radius: 50%; /* Makes the image circular */
     border: 0.3rem solid var(--main-color); /* Smaller border size */
     margin-bottom: 0.8rem; /* Spacing below the image */
+    margin-top: 1rem; /* Moves the image down slightly */
 }
 
 .profile-page h1{
@@ -171,6 +172,11 @@ body{
     position: absolute;
     right: 0;   
     transform-style: preserve-3d;
+    transform-origin: left;
+}
+
+.book-page.page-right.turn{
+    transform: rotateY(-180deg); 
 }
 
 .book-page .page-front,
@@ -235,9 +241,19 @@ body{
 
 .nextprev-btn{
     position: absolute;
+    bottom: .9rem;
+    right: 1.5rem;
     width: 2rem;
     height: 2rem;
-    background: seagreen;
-    bottom: 1.2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--second-text-color);
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    }
 
-}
+    .nextprev-btn:hover{
+        color: var(--main-color);
+    }
