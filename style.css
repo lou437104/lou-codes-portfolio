@@ -257,3 +257,8 @@ body{
     .nextprev-btn:hover{
         color: var(--main-color);
     }
+
+    .nextprev-btn.back{
+       left: 1.5rem;
+       
+    }
