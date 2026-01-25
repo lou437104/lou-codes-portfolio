@@ -223,3 +223,21 @@ body{
 .workeduc-content .year i{
     margin-right: .4rem;
 }
+
+.number-page{
+    position: absolute;
+    bottom: 1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    color: var(--second-text-color);
+} 
+
+.nextprev-btn{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: seagreen;
+    bottom: 1.2rem;
+
+}
