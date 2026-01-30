@@ -262,31 +262,3 @@ body{
        left: 1.5rem;
        
     }
-
-    .services-box{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-    }
-
-   .services-box .services-content{
-    flex: 1 1 10rem;
-    border: var(--border);
-    border-radius: .5rem;
-    padding: .8rem .5rem 1.1rem;
-    text-align: center;
-    }
-
-    .services-content i{
-        font-size: 2.5rem;
-        columns: var(--main-color);
-
-    }
-
-    .services-content h3{
-        font-size: 1.1rem;
-    }
-
-    .services-content p{
-        margin: .2rem;
-    }
