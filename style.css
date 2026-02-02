@@ -265,6 +265,7 @@ body{
     .services-box{
         display: flex;
         flex-wrap: wrap;
+        gap : 1.2rem;
     }
 
     .services-box .services-content{
@@ -273,5 +274,9 @@ body{
         border-radius: .5rem;
         padding: .8rem .5rem 1.1rem;
         text-align: center;
+    }
 
+    .services-content i {
+        font-size: 1.2rem;
+        color: var(--main-color);
     }
