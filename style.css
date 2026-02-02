@@ -280,3 +280,7 @@ body{
         font-size: 1.2rem;
         color: var(--main-color);
     }
+
+    .services-content h3{
+        font-size: 1.1rem;
+    }
