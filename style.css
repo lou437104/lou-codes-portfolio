@@ -284,3 +284,7 @@ body{
     .services-content h3{
         font-size: 1.1rem;
     }
+
+    .services-content p{
+        margin: .2rem 0 .8rem;
+    }
