@@ -288,3 +288,8 @@ body{
     .services-content p{
         margin: .2rem 0 .8rem;
     }
+
+    .services-content .btn{
+        width: 8rem;
+        height: 2.5rem;
+    }
