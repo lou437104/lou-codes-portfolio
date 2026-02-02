@@ -271,4 +271,7 @@ body{
         flex: 1 1 10rem;
         border: var(--border);
         border-radius: .5rem;
+        padding: .8rem .5rem 1.1rem;
+        text-align: center;
+
     }
