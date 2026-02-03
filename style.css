@@ -318,12 +318,27 @@ body{
     .skills-content .content{
         display: flex;
         flex-wrap: wrap;
+        gap: .8rem;
     }
 
     .skills-content .content span{
         display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width:  6rem;
         height: 5rem;
         border: var(--border);
         border-radius: .3rem;
+        font-weight: 450;
+        transition: .3s ease;
+    }
+
+    .skills-content .content span:hover{
+        box-shadow: var(--box-shadow);
+    }
+
+    .skills-content .content span i{
+        font-size: 3rem;
+        color: var(--main-color);
     }
