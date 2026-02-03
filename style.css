@@ -298,3 +298,14 @@ body{
         width: 8rem;
         height: 2.5rem;
     }
+
+    .skills-box{
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 1.5rem;
+    }
+
+    .skills-box .skills-content{
+        background: red;
+        flex: 1 1 20rem;
+    }
