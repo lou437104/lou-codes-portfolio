@@ -322,5 +322,8 @@ body{
 
     .skills-content .content span{
         display: inline-flex;
-        width: 6rem;
+        width:  6rem;
+        height: 5rem;
+        border: var(--border);
+        border-radius: .3rem;
     }
