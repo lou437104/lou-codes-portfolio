@@ -343,10 +343,4 @@ body{
         color: var(--main-color);
     }
 
-    .portfolio-box img {
-        max-width: 80%; /* Set the maximum width to 80% of the container */
-        height: auto; /* Maintain the aspect ratio */
-        display: block; /* Ensures proper alignment */
-        margin: 0 auto; /* Centers the image horizontally */
-        border-radius: 0.5rem; /* Optional: Adds rounded corners */
-    }
+    
