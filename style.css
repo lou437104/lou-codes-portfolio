@@ -384,3 +384,19 @@ body{
         align-items: center;
         color: var(--main-color);
     }
+    .portfolio-box .info-box .info-title a i{
+        margin-left: .3rem;
+    }
+
+    .portfolio-box .info-box p:nth-of-type(1){
+         font-weight: 600;
+    }
+
+    .portfolio-box .btn-box{
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio-box .btn-box .btn{
+        margin: 0 1.15rem;
+    }
