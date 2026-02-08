@@ -27,15 +27,17 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 1rem;
+    overflow-x: hidden;
     background: var(--bg-color);
     color: var(--text-color);
 }
 
 .wrapper{
     position: relative;
-    width: 66rem;
-    height: 45rem;
-    padding: 2rem;
+    width: min(66rem, 95vw);     /* shrink with window */
+    height: min(45rem, 90vh);    /* shrink with window */
+    padding: clamp(1rem, 2vw, 2rem);
 }
 
 .cover{
@@ -269,7 +271,8 @@ body{
     }
 
     .services-box .services-content{
-        flex: 1 1 10rem;
+        flex: 1 1 16rem;   /* bigger minimum so it wraps sooner */
+        max-width: 100%;
         border: var(--border);
         border-radius: .5rem;
         padding: .8rem .5rem 1.1rem;
@@ -306,7 +309,8 @@ body{
     }
 
     .skills-box .skills-content{
-        flex: 1 1 20rem;
+        flex: 1 1 16rem;
+        max-width: 100%;
     }
 
     .skills-content h3{
@@ -416,9 +420,9 @@ body{
         margin-bottom: 1.5rem;
     }
 
-    .contact-box .field ::placeholder{
+    .contact-box .field::placeholder{
         color: var(--text-color);
-    }
+      }
 
     .contact-box textarea{
         resize: none;
@@ -464,8 +468,28 @@ body{
         transition: .5s;
     }
 
-    .back-profile p:hover{
+    .back-profile:hover p{
         opacity: 1;
         transform: translateX(-50%) scale(1);
         top: -1.8rem;
-    }
+      }
+
+    @media (max-width: 900px) {
+        .book .book-page{
+          padding: 1rem;
+        }
+      
+        .book-page .page-front,
+        .book-page .page-back{
+          padding: 1rem;
+        }
+      
+        .btn{
+          width: 100%;
+          margin: .5rem 0;
+        }
+      
+        .profile-page p{
+          font-size: .95rem;
+        }
+      }
