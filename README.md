@@ -2,7 +2,7 @@
 Welcome to **LouCodes** — my personal portfolio showcasing front-end projects, learning progress, and the work I’m building as I transition into web development.
 
 ## 🌐 Live Site
-- Portfolio: **[Add your live link here]**
+- Portfolio: https://loucodes.netlify.app
 - GitHub: https://github.com/lou437104
 
 ---
