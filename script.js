@@ -38,3 +38,26 @@ contactMeBtn.onclick = () => {
         }, (index + 1) * 200 + 100); // Delay for each page turn
     });
 };
+
+//create reverese index fucntion
+let totalPages = pages.length;
+let pageNumber = 0;
+
+function reverseIndex() {
+pageNumber--;
+ if (pageNumber < 0) {
+    pageNumber =totalPages -1;
+}
+}
+
+
+//back profile button when clicked
+const backProfileBtn = document.querySelector('.Back-profile'); // Corrected selector
+backProfileBtn.onclick = () => {
+    pages.forEach((_, index) => {
+        setTimeout(() => {
+              
+
+        })
+    })
+}
