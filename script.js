@@ -58,9 +58,8 @@ backProfileBtn.onclick = () => {
         setTimeout(() => {
             pages[pageNumber].classList.remove('turn'); // Remove 'turn' class to turn back
 
-                setTimeout(() => {
-                    pages
-                }            
-              }, (index + 1) * 200 + 100); // Delay for each page turn
+            setTimeout(() => {
+                pages[pageNumber].style.zIndex = 20 - index; // Adjust zIndex for backward turn
+            }, (index + 1) * 200 + 100); // Delay for each page turn
     })
 }
