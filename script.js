@@ -61,5 +61,6 @@ backProfileBtn.onclick = () => {
             setTimeout(() => {
                 pages[pageNumber].style.zIndex = 20 - index; // Adjust zIndex for backward turn
             }, (index + 1) * 200 + 100); // Delay for each page turn
-    })
-}
+        });
+    });
+};
