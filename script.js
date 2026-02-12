@@ -56,8 +56,11 @@ const backProfileBtn = document.querySelector('.Back-profile'); // Corrected sel
 backProfileBtn.onclick = () => {
     pages.forEach((_, index) => {
         setTimeout(() => {
-              
+            pages[pageNumber].classList.remove('turn'); // Remove 'turn' class to turn back
 
-        })
+                setTimeout(() => {
+                    pages
+                }            
+              }, (index + 1) * 200 + 100); // Delay for each page turn
     })
 }
